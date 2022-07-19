@@ -304,7 +304,7 @@ label {
 }
 #tenor {
         height: 20vh;
-        min-width: 20%;
+        max-width: 20%;
         display: inline;
         box-shadow: 0 10px 10px black;
         text-align: center;
@@ -354,7 +354,7 @@ label {
           
     #bass {
         height: 20vh;
-        width: 20%;
+        max-width: 20%;
         box-shadow: 0 10px 10px black;
         text-align: center;
         align-self: center;
@@ -364,7 +364,7 @@ label {
     }
     #valve {
         height: 20vh;
-        width: 20%;
+        max-width: 20%;
         box-shadow: 0 10px 10px black;
         text-align: center;
         align-self: center;
