@@ -94,7 +94,7 @@ label {
         background-color: lightgrey;
         width: 100%;
         left: 0;
-        z-index: 5;
+        z-index: 3;
     }
     ul {
         display: inline-block;
@@ -303,75 +303,74 @@ label {
     margin-right: 30%;
 }
 #tenor {
-        height: 50vh;
-        max-width: 30%;
-        display: flex;
-        box-shadow: 0 10px 10px black;
-        text-align: center;
-        align-self: center;
-        background-image:  linear-gradient(black, black), url("https://media.istockphoto.com/photos/trombone-with-transposer-on-a-black-table-front-view-picture-id1347556675?k=20&m=1347556675&s=612x612&w=0&h=by4ehjvpC3pb5Wz5-snxhxo8REopiu85qE61HJmK8rg=");
-        background-size: cover;
-        background-blend-mode: saturation;
+    height: 50vh;
+    max-width: 30%;
+    display: flex;
+    box-shadow: 0 10px 10px black;
+    text-align: center;
+    align-self: center;
+    background-image:  linear-gradient(black, black), url("https://media.istockphoto.com/photos/trombone-with-transposer-on-a-black-table-front-view-picture-id1347556675?k=20&m=1347556675&s=612x612&w=0&h=by4ehjvpC3pb5Wz5-snxhxo8REopiu85qE61HJmK8rg=");
+    background-size: cover;
+    background-blend-mode: saturation;
+}
+#tenor h2, #bass h2, #valve h2 {
+    background-color: darkorange;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: verdana, arial;
+}
+#tenor p, #tenor h1, #bass p, #bass h1 {
+    color: orange;
     }
-    #tenor h2, #bass h2, #valve h2 {
-        background-color: darkorange;
-        padding: 10px;
-        text-transform: uppercase;
-        font-weight: lighter;
-        font-family: verdana, arial;
-    }
-    #tenor p, #tenor h1, #bass p, #bass h1 {
-        color: orange;
-    }
-    #tenor p, #bass p, #valve p {
-        padding: 10px;
-        backdrop-filter: blur(7px);
-    }
-    #valve p, #valve h1 {
-        color: black;
-    }
-    #select {
-        background-color: orange;
-        border: none;
-        padding: 10px 30px;
-        border-radius: 30px;
-        font-weight: bolder;
-        text-transform: uppercase;
-        font-family: verdana, arial;
-        font-size: large;
-    }
-    #select:hover {
-        transition: all 0.4s linear;
-        background-color: black;
-        box-shadow: 2px 3px 14px white;
-        color: white;
-    }
-    #select:active {
-        background-color: black;
-        box-shadow: 2px 3px 14px white;
-        color: white;
-    }
-          
-    #bass {
-        height: 50vh;
-        max-width: 30%;
-        box-shadow: 0 10px 10px black;
-        text-align: center;
-        display: flex;
-        align-self: center;
-        background-image:  linear-gradient(black, black), url("https://www.sweetwater.com/insync/media/2022/02/20220124_Trombone_Buying_Guide_01.jpg");
-        background-size: cover;
-        background-blend-mode: saturation;
-    }
-    #valve {
-        height: 50vh;
-        max-width: 30%;
-        display: flex;
-        box-shadow: 0 10px 10px black;
-        text-align: center;
-        align-self: center;
-        background-image:  linear-gradient(black, black), url("https://www.ubuy.vn/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNTFSc3VLLVJ1WkwuX0FDX1NMMTAwMF8uanBn.jpg");
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: saturation;
-    }
+#tenor p, #bass p, #valve p {
+    padding: 10px;
+    backdrop-filter: blur(7px);
+}
+#valve p, #valve h1 {
+    color: black;
+}
+ #select {
+     background-color: orange;
+     border: none;
+     padding: 10px 30px;
+     border-radius: 30px;
+     font-weight: bolder;
+     text-transform: uppercase;
+     font-family: verdana, arial;
+     font-size: large;
+}
+#select:hover {
+    transition: all 0.4s linear;
+    background-color: black;
+    box-shadow: 2px 3px 14px white;
+    color: white;
+}
+#select:active {
+    background-color: black;
+    box-shadow: 2px 3px 14px white;
+    color: white;
+}         
+#bass {
+    height: 50vh;
+    max-width: 30%;
+    box-shadow: 0 10px 10px black;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    background-image:  linear-gradient(black, black), url("https://www.sweetwater.com/insync/media/2022/02/20220124_Trombone_Buying_Guide_01.jpg");
+    background-size: cover;
+    background-blend-mode: saturation;
+}
+#valve {
+    height: 50vh;
+    max-width: 30%;
+    display: flex;
+    box-shadow: 0 10px 10px black;
+    text-align: center;
+    align-self: center;
+    background-image:  linear-gradient(black, black), url("https://www.ubuy.vn/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNTFSc3VLLVJ1WkwuX0FDX1NMMTAwMF8uanBn.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: saturation;
+}
