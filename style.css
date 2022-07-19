@@ -94,7 +94,7 @@ label {
         background-color: lightgrey;
         width: 100%;
         left: 0;
-        z-index: 3;
+        z-index: 5;
     }
     ul {
         display: inline-block;
@@ -219,6 +219,9 @@ label {
     max-height: 30px;
     max-width: auto;
     display: inline;
+}
+#header {
+    z-index: 1;
 }
 .nav-link { 
     color: black; 
