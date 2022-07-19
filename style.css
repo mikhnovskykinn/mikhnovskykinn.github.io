@@ -304,7 +304,8 @@ label {
 }
 #tenor {
         height: 20vh;
-        width: 20%;
+        min-width: 20%;
+        display: inline;
         box-shadow: 0 10px 10px black;
         text-align: center;
         align-self: center;
